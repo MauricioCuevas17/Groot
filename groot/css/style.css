@@ -108,6 +108,17 @@ background-image: linear-gradient(orange, blue);
     justify-content: center;
     margin-left: 50px;
     margin-bottom: 10px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: inifinite;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .aside {
     grid-area: aside;
