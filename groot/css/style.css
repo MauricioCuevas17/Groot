@@ -32,6 +32,7 @@
 .logoDesktop {
     max-width: 60%;
     transform: translate(10px, 30px);
+    transform: rotateY(200deg)
 }
 
 .nav ul {
